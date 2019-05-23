@@ -1,0 +1,6 @@
+1. write your java code.
+2. compile it using javac filename.java
+3. add the connector jar file in the same folder or make sure u know the location of the jar file..
+3. while executing use the command:	
+	java -cp .;mysql-connector-java-8.0.16.jar Connect_db {//if in same folder}
+	java -cp .;path\of\your\mysql-connector-java-5.1.6.jar className {//if different folder}
