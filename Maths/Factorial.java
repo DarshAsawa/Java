@@ -1,4 +1,8 @@
 import java.util.Scanner;
+/*
+Factorial of a number,
+eg. 5! is 5*4*3*2*1 = 120
+*/
 public class Factorial {
 	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
@@ -7,7 +11,7 @@ public class Factorial {
 		n=scan.nextInt();
 
 		System.out.println(n+"!= "+factorial_num(n));
-	
+		scan.close();
 	}
 
 	public static long factorial_num(int i){
